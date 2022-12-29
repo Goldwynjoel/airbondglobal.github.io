@@ -1,0 +1,129 @@
+.ct{
+    text-align: center;
+}
+.ct li{
+    color: white;
+    list-style: none;
+  display: inline-block;
+  text-align: center;
+  border-radius: 20px;
+   border: 2px solid transparent;
+   margin: 20px;
+   padding: 10px 40px 10px 40px;
+   background-color: rgba(255, 255, 255, 0.2);
+   backdrop-filter: blur (10px);
+   -webkit-backdrop-filter: blur(10px);
+}
+.ct {
+    background: linear-gradient(45deg, #d2001a,#3c0174,#f48e21);
+    background-size: 300% 300%;
+    animation: color 7s ease-in-out infinite;
+}
+
+.slt h1{
+    text-align: center;
+    color: white;
+
+}
+
+.contact{
+    text-align: center;
+    color:rebeccapurple ;
+}
+
+.fxk{
+    text-align: center;
+
+}
+
+.a{
+
+        -webkit-animation: spin 5s linear infinite;
+        -moz-animation: spin 5s linear infinite;
+        animation: spin 5s linear infinite;
+        margin: 20px;
+
+}
+
+.b{
+
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    margin: 20px;
+}
+
+.c{
+
+    -webkit-animation: spin 8s linear infinite;
+    -moz-animation: spin 8s linear infinite;
+    animation: spin 8s linear infinite;
+    margin: 20px;
+}
+
+.d{
+
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    margin: 20px;
+}
+
+.e{
+
+    -webkit-animation: spin 9s linear infinite;
+    -moz-animation: spin 9s linear infinite;
+    animation: spin 9s linear infinite;
+    margin: 20px;
+}
+
+
+.f{
+
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: 20px;
+}
+
+.cold img{
+
+    text-align: center;
+    -webkit-animation: spin 7s linear infinite;
+    -moz-animation: spin 7s linear infinite;
+    animation: spin 7s linear infinite;
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+.nav {
+    color: reb;
+    list-style: none;
+    text-align: center;
+}
+
+.nav li{
+    list-style: none;
+    display: inline-block;
+   margin: 10px;
+   border-left: 2px solid rebeccapurple;
+   margin-left: 2px;
+}
+
+.box{
+    width: 80%;
+    height: 150%;
+
+}
+.box img{
+    width: 120%;
+    height: 300%;
+}

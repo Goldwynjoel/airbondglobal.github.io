@@ -1,0 +1,50 @@
+.log {
+  
+    text-align: center;
+    background: linear-gradient(45deg, #d2001a,#3c0174,#f48e21);
+    background-size: 300% 300%;
+    animation: color 7s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.nav {
+    color: reb;
+    list-style: none;
+    text-align: center;
+}
+
+.nav li{
+    list-style: none;
+    display: inline-block;
+   margin: 10px;
+   border-left: 2px solid rebeccapurple;
+   margin-left: 2px;
+}
+
+.log img{
+        text-align: center;
+        -webkit-animation: spin 7s linear infinite;
+        -moz-animation: spin 7s linear infinite;
+        animation: spin 7s linear infinite;
+}
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
